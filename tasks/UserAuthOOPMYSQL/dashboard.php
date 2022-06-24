@@ -48,7 +48,9 @@
         Show All Users
        </button>
      </form>
-    
+    <?php if (isset($_GET['update'])): ?>
+    <h1 class=""><?php echo 'Password updated successfully' ?></h1>
+    <?php endif; ?>
 </div>
   </div>
 

@@ -40,7 +40,11 @@
                 </div>
 
                 <div class="form-group">
+                    <?php if (isset($_GET['error'])) : ?>
+                    <p><?php echo 'Something went resetting the password';?></p> <br>
+                    <?php endif; ?>
                     <p>Go back to Login!: <br><a href="login.php">Login page</a></p>
+
                 </div>
             </div>
             
